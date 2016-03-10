@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  author: Rich Choy <rich@it-consultis.com>
+  description: Install latest nginx to Debian/Ubuntu hosts
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+    - wily
+  - name: Debian
+    versions:
+    - wheezy
+    - jessie
+    - stretch
+  categories:
+  - system
+
+dependencies: []
+  
