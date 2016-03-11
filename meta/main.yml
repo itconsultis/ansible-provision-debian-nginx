@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Rich Choy <rich@it-consultis.com>
-  description: Install latest nginx to Debian/Ubuntu hosts
+  description: Install nginx from mainline PPA to Debian/Ubuntu hosts
   license: MIT
   min_ansible_version: 1.2
   platforms:
@@ -14,9 +14,8 @@ galaxy_info:
     versions:
     - wheezy
     - jessie
-    - stretch
+    - squeeze
   categories:
   - system
 
 dependencies: []
-  
