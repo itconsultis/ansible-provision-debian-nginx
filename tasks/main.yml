@@ -1,11 +1,11 @@
 ---
 
 - name: install software-properties-common
-  apt: name=software-properties-common state=present
+  apt: name=software-properties-common state=present update_cache=yes cache_valid_time=3600
 
 - name: add apt repository
   shell: apt-add-repository -y ppa:nginx/development
 
 - name: install nginx
-  apt: name=nginx state=present update_cache=yes
+  apt: name=nginx force=yes state=present update_cache=yes cache_valid_time=3600
 
