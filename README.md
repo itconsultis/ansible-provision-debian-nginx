@@ -1,10 +1,11 @@
 # provision-debian-nginx
 
-Ansible role that installs the latest nginx web server from the mainline PPA
+Ansible role that installs the latest nginx web server from an nginx PPA
 
-## Variables
-
-none
+## Role Defaults
+```
+ppa_nginx     ppa:nginx/development
+```
 
 ## Example Playbook
 
